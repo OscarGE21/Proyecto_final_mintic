@@ -1,0 +1,56 @@
+body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco para contrastar */
+}
+
+.transaction-list-container {
+    margin-top: 20px;
+}
+
+.transaction-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.transaction-description {
+    flex-basis: 50%;
+}
+
+.transaction-details {
+    display: flex;
+    align-items: center;
+}
+
+.transaction-amount {
+    text-align: center;
+    min-width: 80px;
+    padding: 5px;
+}
+
+.transaction-amount.income {
+    color: #00cc00; /* Verde para ingresos */
+}
+
+.transaction-amount.expense {
+    color: #cc0000; /* Rojo para egresos */
+}
+
+.transaction-category {
+    margin-left: 10px;
+}
+
+/*button {
+    cursor: pointer;
+}*/
+
+.transaction-item button {
+    cursor: pointer;
+}
